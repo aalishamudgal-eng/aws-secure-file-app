@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cloud Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Alisha Cloud</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Hi, I'm Alisha 👋</h1>
+    <p>Aspiring AWS Cloud Engineer | Serverless | DevOps Enthusiast</p>
+    <button onclick="scrollToProjects()">View My Work</button>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>AWS Static Website</h3>
+        <p>Hosted a website using S3 with public access configuration.</p>
+    </div>
+
+    <div class="card">
+        <h3>Serverless File Upload App</h3>
+        <p>Built using S3, Lambda, API Gateway with secure file handling.</p>
+    </div>
+
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>AWS S3</span>
+        <span>EC2</span>
+        <span>Lambda</span>
+        <span>API Gateway</span>
+        <span>IAM</span>
+        <span>CloudWatch</span>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Alisha | AWS Cloud Portfolio</p>
+</footer>
+
+<script>
+function scrollToProjects() {
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
